@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/000.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+#nav p{
+    font-size: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+#main #nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+.full span{
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+}
+.full{
+    width: 400px;
+    height: 100%;
+    top:0;
+    position: absolute;
+    right: -400px;
+    padding: 240px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+h1{
+    margin-left: -40px;
+}
+
